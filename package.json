@@ -15,7 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "heroku-postbuild": "cd personalWebApp && cd src && npm install && npm run build"
+    "heroku-postbuild": "cd personalWebApp && cd src && npm install && npm install @angular/cli@latest @angular/compiler-cli --save-dev && npm run build"
   },
   "engines": {
     "node": "14.15.4",
