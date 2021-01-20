@@ -32,9 +32,9 @@ app.use(session({
         maxAge: null
     }
 }));
-if (app.get('env') === 'production') {
-    session.cookie.secure = true;
-}
+// if (app.get('env') === 'production') {
+//     session.cookie.secure = true;
+// }
 
 app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Methods', ['GET', 'POST', 'DELETE', 'PUT']);
