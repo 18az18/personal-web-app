@@ -15,7 +15,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "heroku-postbuild": "cd src && npm install && ng build"
+    "heroku-postbuild": "cd personalWebApp && cd src && npm install && ng build"
+  },
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.10"
   },
   "author": "Tian Ji Liu",
   "license": "ISC"
