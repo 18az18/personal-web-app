@@ -1,22 +1,15 @@
-.containter {
-  display: flex;
-  align-items:flex-start;
+.intro .container > *:nth-child(2) {
+  font-size: 1.2rem;
+  margin: 0px 20px;
+  padding: 10px;
 }
 
-#avatar {
-  margin-left: 50px;
-  margin-right: 50px;
-  display: block;
+.contact {
+  margin:auto;
+  justify-self: flex-start;
 }
 
-#words {
-  word-spacing: 3px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-}
-
-@media screen and (min-width: 20em) {
-   /*br {
-    display: none; /* hide the BR tag for wider screens (i.e. disable the line break)
-  }*/
+.container {
+  margin: 0 auto;
+  padding: 0px;
 }
